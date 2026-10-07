@@ -39,6 +39,12 @@ Streamlit Dashboard
 - Interactive analytics dashboard using Streamlit
 - Docker-based infrastructure
 
+## Dashboard
+
+The ReviewStream dashboard provides real-time review analytics, sentiment distribution, recent review insights, and semantic search.
+
+![ReviewStream Dashboard](images/dashboard.png)
+
 ## Technology Stack
 
 | Technology            | Purpose                         |
@@ -189,7 +195,6 @@ ReviewStream/
 ```bash
 git clone https://github.com/PrethikaaPRV/ReviewStream.git
 cd ReviewStream
-```
 
 ### 2. Install Python dependencies
 
