@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+reviewstream-embeddings/
+venv/
+.env
+.venv/
+
+# Generated Spark data
+data/processed/
+data/checkpoint/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database backup
+reviewstream_backup.sql
