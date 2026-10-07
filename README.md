@@ -13,14 +13,16 @@ Python Producer
       ↓
 PySpark Structured Streaming
       ↓
- PostgreSQL
-      ↓
-Sentence Transformers
-      ↓
-   pgvector
-      ↓
-   FastAPI
-      ↓
+ ┌────┴─────────────┐
+ ↓                  ↓
+PostgreSQL        Parquet
+ ↓
+Embeddings
+ ↓
+pgvector
+ ↓
+FastAPI
+ ↓
 Streamlit Dashboard
 ```
 
@@ -185,7 +187,7 @@ ReviewStream/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Pr3thikaa/ReviewStream.git
+git clone https://github.com/PrethikaaPRV/ReviewStream.git
 cd ReviewStream
 ```
 
